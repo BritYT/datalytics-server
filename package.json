@@ -1,0 +1,32 @@
+{
+  "name": "datalytics-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "circular-json": "^0.5.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "express-async-await": "^1.1.0",
+    "googleapis": "^29.0.0",
+    "nodemon": "^1.17.3",
+    "yeps": "^1.1.1",
+    "yeps-bodyparser": "^1.1.1",
+    "yeps-error": "^1.3.1",
+    "yeps-response": "^0.2.0",
+    "yeps-router": "^1.2.0",
+    "yeps-server": "^1.1.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^3.1.1",
+    "typescript": "^2.0.6"
+  }
+}
